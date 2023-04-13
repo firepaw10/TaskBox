@@ -28,3 +28,65 @@
   font-size: 16px;
   padding: 12px 24px;
 }
+
+.avatar {
+  border: none;
+  background-color: #5994c9;
+  overflow:hidden;
+  font-size: 12px;
+  padding: 2.5%;
+  color:white;
+  border-radius: 50%;
+  margin-right: 10%;
+  font-family: "aeonik", sans-serif;
+  display:flex;
+  justify-content: center;
+}
+
+.avatar:active {
+    background-color: rgba(89, 148, 201, 0.3);
+    transition: 0.2s;
+}
+
+.wrapper {
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  /*border: 2px solid #000000;*/
+  justify-content: right;
+  width:25%;
+  background-color: white;
+  /*height:40px;*/
+  float:right;
+}
+
+.warning {
+  background-color: orangered;
+  border: none;
+  overflow:hidden;
+  padding: 2.5%;
+  color:white;
+  font-size: 12px;
+  border-radius: 50%;
+  margin-right: 10%;
+  font-family: "aeonik", sans-serif;
+}
+
+.warning:active {
+    background-color: rgba(255, 69, 0, 0.3);
+    transition: 0.2s;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.1);
+}
