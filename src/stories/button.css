@@ -52,11 +52,9 @@
   border-radius: 5px;
   display: flex;
   padding: 5px;
-  /*border: 2px solid #000000;*/
   justify-content: right;
   width:25%;
-  background-color: white;
-  /*height:40px;*/
+  background-color: #E5E5E5;  /* used to be white */
   float:right;
 }
 
