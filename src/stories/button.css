@@ -47,6 +47,9 @@
     background-color: rgba(89, 148, 201, 0.3);
     transition: 0.2s;
 }
+.button {
+
+}
 
 .wrapper {
   border-radius: 5px;

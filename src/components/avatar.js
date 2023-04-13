@@ -2,18 +2,17 @@ import React from 'react';
 import classes from '../stories/button.css';
 import PropTypes from "prop-types";
 
+
 // const avatar = (props) => {
-export default function Avatar({avatar = { type, className, onClick, disabled, text, icon, width}}) {
+export default function Avatar({ avatar : { type, className, text, width} }) {
     return (
         <div className='wrapper'>
             <button
-                type={avatar.type || "button"}
-                className={`${classes.button} ${avatar.className}`}
-                onClick={avatar.onClick}
-                disabled={avatar.disabled}
-                style={{width: `${avatar.width}`}}
+                type={type || "button"}
+                className={`${classes.button} ${className}`}
+                style={{width: `${width}`}}
                 >
-                <span className={classes.button__text}>{avatar.text}</span>
+                <span className={classes.button__text}>{text}</span>
             </button>
         </div>
     );

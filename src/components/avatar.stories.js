@@ -1,13 +1,9 @@
 import React from 'react';
 import Avatar from './avatar';
 
-// import { rest } from 'msw';
-
 export default {
   component: Avatar,
   title: 'Avatar',
-  type: 'button',
-  className: 'button',
   // decorators: <avatar type="profile" text="GF" icon="fa-solid fa-arrow-right-to-bracket">,
 };
 
@@ -17,9 +13,8 @@ threeCharName.args = {
   avatar: {
     type: 'button',
     className: 'avatar',
-    title: 'Test Task',
     text: 'GNF',
-    width: '10%'
+    width: '10%',
   },
 };
 
@@ -28,9 +23,8 @@ twoCharName.args = {
   avatar: {
     type: 'button',
     className: 'avatar',
-    title: 'Test Task',
     text: 'GF',
-    width: '10%'
+    width: '10%',
   },
 };
 
@@ -39,8 +33,7 @@ oneCharName.args = {
   avatar: {
     type: 'button',
     className: 'avatar',
-    title: 'Test Task',
     text: 'H',
-    width: '10%'
+    width: '10%',
   },
 };
